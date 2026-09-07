@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | TIV Digital Marketing — Insights & Knowledge Hub</title>
+  <meta name="description" content="Read digital marketing insights, AI automation trends, local SEO guides, Google & Meta Ads strategies on the TIV Digital Marketing Blog.">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-[#09011a] text-tiv-white antialiased">
+
+  <!-- MARQUEE ANNOUNCEMENT BAR -->
+  <div class="marquee-wrapper">
+    <div class="marquee-content text-tiv-white">
+      <span>🚀 AI-Powered Digital Growth for Modern Businesses &bull; 🤖 AI Automation &bull; 🧠 AI Agents &bull; ⚡ AI Workflows &bull; 📈 SEO & Performance Marketing &bull; 🌐 AI Website Development &bull; <a href="free-audit.html" class="text-tiv-orange underline hover:text-white transition-colors">Get Your Free Digital Audit Today &rarr;</a></span>
+      <span class="ml-12">🚀 AI-Powered Digital Growth for Modern Businesses &bull; 🤖 AI Automation &bull; 🧠 AI Agents &bull; ⚡ AI Workflows &bull; 📈 SEO & Performance Marketing &bull; 🌐 AI Website Development &bull; <a href="free-audit.html" class="text-tiv-orange underline hover:text-white transition-colors">Get Your Free Digital Audit Today &rarr;</a></span>
+    </div>
+  </div>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="header-sticky">
+    <div class="tiv-container">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-tiv-orange to-[#18033E] flex items-center justify-center shadow-lg shadow-tiv-orange/30 border border-tiv-orange/40">
+            <i class="fa-solid fa-brain text-tiv-white text-xl"></i>
+          </div>
+          <div>
+            <span class="font-heading font-extrabold text-2xl text-tiv-white">TIV</span>
+            <span class="font-heading font-bold text-[10px] uppercase tracking-widest block text-tiv-orange -mt-1">Digital Marketing</span>
+          </div>
+        </a>
+
+        <nav class="desktop-nav">
+          <a href="index.html" class="text-tiv-white hover:text-tiv-orange">Home</a>
+          <a href="services.html" class="text-tiv-white hover:text-tiv-orange">Services</a>
+          <a href="our-work.html" class="text-tiv-white hover:text-tiv-orange">Our Work</a>
+          <a href="about.html" class="text-tiv-white hover:text-tiv-orange">About</a>
+          <a href="blog.html" class="text-tiv-orange font-bold">Blog</a>
+          <a href="free-audit.html" class="text-tiv-white hover:text-tiv-orange">Free Audit</a>
+          <a href="careers.html" class="text-tiv-white hover:text-tiv-orange">Careers</a>
+          <a href="contact.html" class="text-tiv-white hover:text-tiv-orange">Contact</a>
+        </nav>
+
+        <div class="hidden sm:flex items-center gap-4">
+          <button data-modal-target="consultation-modal" class="btn-primary text-sm">Get Free Consultation</button>
+        </div>
+
+        <button id="mobile-menu-toggle" class="lg:hidden text-2xl text-tiv-white focus:outline-none p-2"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU DRAWER -->
+  <div id="mobile-drawer" class="mobile-menu-drawer lg:hidden">
+    <div class="flex items-center justify-between mb-8 pb-4 border-b border-white/10">
+      <span class="font-heading font-extrabold text-lg text-white">TIV Digital</span>
+      <button id="mobile-menu-close" class="text-2xl text-slate-300 hover:text-tiv-orange"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <nav class="flex flex-col gap-4 font-semibold">
+      <a href="index.html" class="text-white hover:text-tiv-orange">Home</a>
+      <a href="services.html" class="text-white hover:text-tiv-orange">Services</a>
+      <a href="our-work.html" class="text-white hover:text-tiv-orange">Our Work</a>
+      <a href="about.html" class="text-white hover:text-tiv-orange">About Us</a>
+      <a href="blog.html" class="text-tiv-orange font-bold">Blog</a>
+      <a href="free-audit.html" class="text-white hover:text-tiv-orange">Free Audit</a>
+      <a href="careers.html" class="text-white hover:text-tiv-orange">Careers</a>
+      <a href="contact.html" class="text-white hover:text-tiv-orange">Contact</a>
+    </nav>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="py-20 bg-tiv-purple-bg/90 border-b border-white/10 text-center">
+    <div class="tiv-container space-y-4">
+      <div class="badge-tag"><i class="fa-solid fa-newspaper"></i> Insights & Knowledge</div>
+      <h1 class="font-heading text-4xl sm:text-6xl font-black">TIV DIGITAL <span class="gradient-text-orange">BLOG</span></h1>
+      <p class="text-slate-300 max-w-2xl mx-auto text-base">Digital Marketing, AI & Business Growth Insights. Practical strategies to help business owners stay ahead of changing marketing technologies.</p>
+    </div>
+  </section>
+
+  <!-- BLOG GRID & CATEGORY FILTERS -->
+  <section class="py-20">
+    <div class="tiv-container">
+      
+      <!-- Category Filters -->
+      <div class="flex items-center justify-center gap-2 flex-wrap mb-12">
+        <button class="blog-filter-btn filter-btn active" data-filter="all">All Categories</button>
+        <button class="blog-filter-btn filter-btn" data-filter="ai">AI & Automation</button>
+        <button class="blog-filter-btn filter-btn" data-filter="seo">SEO</button>
+        <button class="blog-filter-btn filter-btn" data-filter="gbp">Google Business Profile</button>
+        <button class="blog-filter-btn filter-btn" data-filter="performance">Performance Marketing</button>
+        <button class="blog-filter-btn filter-btn" data-filter="social">Social Media</button>
+        <button class="blog-filter-btn filter-btn" data-filter="websites">Websites</button>
+        <button class="blog-filter-btn filter-btn" data-filter="content">Content Marketing</button>
+      </div>
+
+      <!-- Blog Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="blog-card tiv-card" data-category="ai">
+          <span class="badge-tag text-xs mb-3">AI & Automation</span>
+          <h3 class="font-heading font-bold text-lg mb-2">How AI Agents Are Redefining Customer Support in 2026</h3>
+          <p class="text-xs text-slate-300 mb-4">Learn how autonomous AI Agents handle queries 24/7 and qualify high-intent leads automatically.</p>
+          <a href="#" class="text-tiv-orange text-xs font-bold hover:underline">Read Article &rarr;</a>
+        </div>
+
+        <div class="blog-card tiv-card" data-category="seo">
+          <span class="badge-tag text-xs mb-3">SEO</span>
+          <h3 class="font-heading font-bold text-lg mb-2">Sustainable Local SEO Strategies vs Paid Ads Dependency</h3>
+          <p class="text-xs text-slate-300 mb-4">Why relying solely on ad budget is risky, and how organic search builds long-term business equity.</p>
+          <a href="#" class="text-tiv-orange text-xs font-bold hover:underline">Read Article &rarr;</a>
+        </div>
+
+        <div class="blog-card tiv-card" data-category="performance">
+          <span class="badge-tag text-xs mb-3">Performance Marketing</span>
+          <h3 class="font-heading font-bold text-lg mb-2">Building High-ROAS Google & Meta Ads Funnels</h3>
+          <p class="text-xs text-slate-300 mb-4">A practical step-by-step breakdown from audience research to scaling winning ad creatives.</p>
+          <a href="#" class="text-tiv-orange text-xs font-bold hover:underline">Read Article &rarr;</a>
+        </div>
+
+        <div class="blog-card tiv-card" data-category="gbp">
+          <span class="badge-tag text-xs mb-3">Google Business Profile</span>
+          <h3 class="font-heading font-bold text-lg mb-2">Mastering Local Map Pack Rankings for Small Businesses</h3>
+          <p class="text-xs text-slate-300 mb-4">How category selection, customer review strategies, and posts boost local Google Map visibility.</p>
+          <a href="#" class="text-tiv-orange text-xs font-bold hover:underline">Read Article &rarr;</a>
+        </div>
+
+        <div class="blog-card tiv-card" data-category="websites">
+          <span class="badge-tag text-xs mb-3">Websites</span>
+          <h3 class="font-heading font-bold text-lg mb-2">Why Your Website Isn't Converting Visitors Into Leads</h3>
+          <p class="text-xs text-slate-300 mb-4">Common UX mistakes and messaging gaps that reduce landing page conversions.</p>
+          <a href="#" class="text-tiv-orange text-xs font-bold hover:underline">Read Article &rarr;</a>
+        </div>
+
+        <div class="blog-card tiv-card" data-category="social">
+          <span class="badge-tag text-xs mb-3">Social Media</span>
+          <h3 class="font-heading font-bold text-lg mb-2">The Anatomy of a High-Engaging Instagram Reel for Brands</h3>
+          <p class="text-xs text-slate-300 mb-4">Key hook strategies, visual pacing, and call-to-actions that drive organic Instagram reach.</p>
+          <a href="#" class="text-tiv-orange text-xs font-bold hover:underline">Read Article &rarr;</a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#050010] border-t border-white/10 pt-16 pb-12 text-sm text-slate-400">
+    <div class="tiv-container">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div>© 2026 TIV Digital Marketing. All Rights Reserved.</div>
+        <div class="flex gap-4">
+          <a href="https://www.instagram.com/tivdigitalmarketing?stkn=OWM5eDRha203a2gx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/deepak-patidarr" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.me/917000430772" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
