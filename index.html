@@ -16,6 +16,33 @@
   <!-- FontAwesome 6 Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            tiv: {
+              purple: '#18033E',
+              dark: '#09011a',
+              bg: '#11022e',
+              light: '#25065c',
+              orange: '#F97101',
+              green: '#018B11',
+              white: '#FEFEFE'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
   <!-- Custom Master Stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
 </head>

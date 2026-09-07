@@ -7,9 +7,6 @@
    - Crisp Ice White: #FEFEFE
    ========================================================================== */
 
-/* Google Fonts Import in CSS for guarantee */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800;900&display=swap');
-
 :root {
   --tiv-purple-dark: #09011a;
   --tiv-purple-bg: #11022e;
